@@ -28,12 +28,17 @@ INT_2_ROMAN             = $(BINDIR)/int2Roman
 INT_2_ROMAN_SRC         = int2Roman.c
 INT_2_ROMAN_OBJS        = $(INT_2_ROMAN_SRC:.c=.o)
 
+REG_EXP_MATCH           = $(BINDIR)/regExpMatch
+REG_EXP_MATCH_SRC       = regExpMatch.c
+REG_EXP_MATCH_OBJS      = $(REG_EXP_MATCH_SRC:.c=.o)
+
 all: $(LONGEST_PALINDROME)			\
 	 $(ZIGZAGCONVERSION) 			\
 	 $(REVERSEINTEGER)				\
 	 $(PALINDROM_NUMBER)			\
 	 $(MAX_AREA)					\
 	 $(INT_2_ROMAN)					\
+	 $(REG_EXP_MATCH)				\
 
 $(LONGEST_PALINDROME): $(LONGEST_PALINDROME_OBJS)
 	$(CC) $(CCFLAGS) -o $(LONGEST_PALINDROME) $(LONGEST_PALINDROME_OBJS) $(LDFLAGS) $(DEBUG)
@@ -53,6 +58,9 @@ $(MAX_AREA): $(MAX_AREA_OBJS)
 $(INT_2_ROMAN): $(INT_2_ROMAN_OBJS)
 	$(CC) $(CCFLAGS) -o $(INT_2_ROMAN) $(INT_2_ROMAN_OBJS) $(LDFLAGS) $(DEBUG)
 
+$(REG_EXP_MATCH): $(REG_EXP_MATCH_OBJS)
+	$(CC) $(CCFLAGS) -o $(REG_EXP_MATCH) $(REG_EXP_MATCH_OBJS) $(LDFLAGS) $(DEBUG)
+
 clean :
 		rm                                              		 \
 		$(LONGEST_PALINDROME) $(LONGEST_PALINDROME_OBJS)		 \
@@ -61,3 +69,4 @@ clean :
 		$(PALINDROM_NUMBER) $(PALINDROM_NUMBER_OBJS)			 \
 		$(MAX_AREA) $(MAX_AREA_OBJS)							 \
 		$(INT_2_ROMAN) $(INT_2_ROMAN_OBJS)						 \
+		$(REG_EXP_MATCH) $(REG_EXP_MATCH_OBJS)					 \
