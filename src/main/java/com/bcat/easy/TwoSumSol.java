@@ -18,6 +18,8 @@ import java.util.Hashtable;
  *       构造一个以数值作为{@code key}，以下标作为{@code value}的哈希表。一次遍历数组，从哈希表中查找{@code target - nums[i]}的值，
  *   找到则是对应答案；否则，将当前数值{@code nums[i]}存入哈希表并继续遍历。
  * </p>
+ *
+ * @author <a href="zjebusiness@gmail.com">赵峻</a>
  */
 public class TwoSumSol {
     public static int[] twoSum(int[] nums, int target) {

@@ -29,10 +29,11 @@ public class LongestPalindromeSol {
         while (curPos < sArray.length) {
             curLen = 1;
             startPos = endPos = curPos;
-            // 去除左边相同子串
-            while (--startPos >= 0 && sArray[startPos] == sArray[curPos])
+            // 左边相同子串
+            while (--startPos >= 0 && sArray[startPos] == sArray[curPos]) {
                 ++curLen;
-            // 去除右边相同子串
+            }
+            // 右边相同子串
             while (++endPos < sArray.length && sArray[endPos] == sArray[curPos]) {
                 ++curLen;
             }
@@ -51,7 +52,7 @@ public class LongestPalindromeSol {
             }
             ++curPos;
         }
-        return s.substring(maxStart, maxLen);
+        return s.substring(maxStart, maxLen + maxStart);
     }
 
     public static void main(String[] args) {
