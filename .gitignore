@@ -1,4 +1,5 @@
-# ignore *.o
-*.o
-# ignore out
-**/bin
+# ignore IDEA files
+.idea
+# ignore build files
+target
+*/target/
