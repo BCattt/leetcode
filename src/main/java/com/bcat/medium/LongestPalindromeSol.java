@@ -27,12 +27,16 @@ public class LongestPalindromeSol {
         // 当前最长子串长度
         int curLen = 0;
         while (curPos < sArray.length) {
+            curLen = 1;
             startPos = endPos = curPos;
-            // discard same characters on the right
-            while (--startPos >= 0 && sArray[startPos] == sArray[curPos]) {
+            // 去除左边相同子串
+            while (--startPos >= 0 && sArray[startPos] == sArray[curPos])
+                ++curLen;
+            // 去除右边相同子串
+            while (++endPos < sArray.length && sArray[endPos] == sArray[curPos]) {
                 ++curLen;
             }
-            while (startPos >= 0 && endPos <= sArray.length - 1) {
+            while (startPos >= 0 && endPos < sArray.length) {
                 if (sArray[startPos] == sArray[endPos]) {
                     curLen += 2;
                 } else {
@@ -48,5 +52,13 @@ public class LongestPalindromeSol {
             ++curPos;
         }
         return s.substring(maxStart, maxLen);
+    }
+
+    public static void main(String[] args) {
+        String s = "babad";
+        System.out.println(longestPalindrome(s));
+
+        s = "cbbd";
+        System.out.println(longestPalindrome(s));
     }
 }
