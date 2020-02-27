@@ -16,7 +16,14 @@ package com.bcat.medium;
  *   Input: "cbbd"
  *   Output: "bb"
  * }
+ * 时间复杂度: {@code O(n^2)}
+ * 空间复杂度: {@code O(1)}
+ * 解题思路如下：
+ * 对字符串做一次遍历，以当前遍历点开始向左和向右查找回文并记录，与之前的最长回文比较，
+ * 直至所有字符串遍历完成。
  *
+ *
+ * @author <a href="zjebusiness@gmail.com">赵峻</a>
  */
 public class LongestPalindromeSol {
     public static String longestPalindrome(String s) {
