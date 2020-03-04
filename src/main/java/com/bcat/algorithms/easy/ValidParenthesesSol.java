@@ -46,6 +46,8 @@ package com.bcat.algorithms.easy;
  *        遇到左括号就压栈, 遇到右括号就出栈, 如果无法出栈，则状态错误。
  *        如果所有字符处理完成，则栈大小应为0
  * </p>
+ *
+ * @author <a href="zjebusiness@gmail.com">赵峻</a>
  */
 public class ValidParenthesesSol {
     public static boolean isValid(String s) {
