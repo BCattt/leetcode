@@ -22,7 +22,9 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |17 | Letter Combinations of a Phone Number | Medium | ```com.bcat.algorithms.medium.LetterCombinationsOfaPhoneNumberSol``` |  |
 |19 | Remove Nth Node from End of List | Medium | ```com.bcat.algorithms.medium.RmNthNodeFromEndOfListSol``` |  |  
 |20 | Valid Parentheses | Easy | ```com.bcat.algorithms.easy.ValidParenthesesSol``` |  |
-|21 | Merge Two Sorted List | Easy | ```com.bcat.algorithms.easy.MergeTwoSortedListsSol``` |  |  
+|21 | Merge Two Sorted List | Easy | ```com.bcat.algorithms.easy.MergeTwoSortedListsSol``` |  |
+|23 | Merge k Sorted Lists | Hard |   ```com.bcat.algorithms.hard.MergekSortedListsSol``` |  |  
+|1103 | Distribute Candies to People | Easy | ```com.bcat.algorithms.easy.DistributeCandies2PeopleSol``` |  |  
 |1114 | Print in Order | Easy | ```com.bcat.mt.easy.PrintInOrderSol``` |  |  
 |10.01 | Sorted Merge LCCI | Easy | ```com.bcat.interview.easy.SortedMergeLCCISol``` |  |
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
