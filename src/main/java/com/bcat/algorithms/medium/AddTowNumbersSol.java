@@ -16,7 +16,7 @@ package com.bcat.algorithms.medium;
  * Explanation: 342 + 465 = 807.
  * }
  *
- * @author <a href="zjebusiness@gmail.com>赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">赵峻</a>
  */
 public class AddTowNumbersSol {
     private static class ListNode {
