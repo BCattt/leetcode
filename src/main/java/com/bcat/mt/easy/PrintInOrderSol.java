@@ -35,7 +35,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly to ensure our tests' comprehensiveness.
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class PrintInOrderSol {
     static class Foo {

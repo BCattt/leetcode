@@ -9,6 +9,6 @@
  *   {@code class mt.easy.PrintInOrder} is the solution for multi-threaded
  *   problem <em>1114.Print in Order.</em>
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 package com.bcat.mt;

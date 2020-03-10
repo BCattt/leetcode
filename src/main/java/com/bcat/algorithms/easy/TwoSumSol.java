@@ -20,7 +20,7 @@ import java.util.Hashtable;
  *   3. 利用有序数组指针碰撞查找
  * </p>
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class TwoSumSol {
     public static int[] twoSum(int[] nums, int target) {

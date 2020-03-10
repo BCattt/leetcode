@@ -23,7 +23,7 @@ package com.bcat.algorithms.easy;
  * 从第一个字符串的第一个字母开始遍历，如果所有字符串遍历完成，则增加一个字符，继续遍历。
  * 时间复杂度O(n), 空间复杂度O(1).
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  *
  */
 public class LongestCommonPrefixSol {

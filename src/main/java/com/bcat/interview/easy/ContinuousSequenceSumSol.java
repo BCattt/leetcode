@@ -33,7 +33,7 @@ import java.util.List;
  * <p>思路2:
  * 从1开始到 t/2 + 1, 累加求和, 当累加和==t时, 为一个答案; 如果累加和> t, 则重新
  * 从当前位置的下一个位置开始累加, 直到累加和==t或>t
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class ContinuousSequenceSumSol {
     public static int[][] findContinuousSequence(int target) {

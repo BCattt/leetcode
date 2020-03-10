@@ -25,7 +25,7 @@ import com.bcat.domain.TreeNode;
  * 从根节点开始, 计算其左子树的最长路径; 然后计算其右子树的最长路径. diameterLeft + diameterRight即得到此节点
  * 为根的树的diameter. 如果某个节点没有左子树, 则其左子树的diameter是0; 如果某个节点没有右子树, 则其右子树的diameter是0.
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class DiameterOfBinaryTreeSol {
     private static int diameter = 0;

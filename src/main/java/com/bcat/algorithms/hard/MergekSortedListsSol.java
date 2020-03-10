@@ -21,7 +21,7 @@ import com.bcat.utils.Utils;
  *
  * <p>解题思路:
  * 循环遍历k个链表，每次取最小元素，将当前指针指向它，然后将当前结果节点指向此节点。
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class MergekSortedListsSol {
 

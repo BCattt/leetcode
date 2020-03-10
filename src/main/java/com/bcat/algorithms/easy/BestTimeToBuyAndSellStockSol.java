@@ -21,7 +21,7 @@ package com.bcat.algorithms.easy;
  * Output: 0
  * Explanation: In this case, no transaction is done, i.e. max profit = 0.
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class BestTimeToBuyAndSellStockSol {
     public static int maxProfit(int[] prices) {

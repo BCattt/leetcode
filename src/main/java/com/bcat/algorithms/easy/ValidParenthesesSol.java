@@ -47,7 +47,7 @@ package com.bcat.algorithms.easy;
  *        如果所有字符处理完成，则栈大小应为0
  * </p>
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class ValidParenthesesSol {
     public static boolean isValid(String s) {

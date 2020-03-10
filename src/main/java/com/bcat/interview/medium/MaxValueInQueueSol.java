@@ -29,7 +29,7 @@ package com.bcat.interview.medium;
  * 此Queue仅仅做push_back和pop_front操作, 可以使用单向链表实现。由于要求max_value的时间复杂度为O(1),
  * 可以考虑增加一个指针来记录当前链表的排序, 当进行push_back和pop_front时, 维护此升序序列;
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class MaxValueInQueueSol {
     private static class Node {

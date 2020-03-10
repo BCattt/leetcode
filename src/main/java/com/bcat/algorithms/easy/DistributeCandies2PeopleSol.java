@@ -37,7 +37,7 @@ package com.bcat.algorithms.easy;
  * 1 {@literal <= } candies {@literal <= } 10^9
  * 1 {@literal <= } num_people {@literal <= } 1000
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class DistributeCandies2PeopleSol {
     public static int[] distributeCandies(int candies, int num_people) {

@@ -13,7 +13,7 @@ package com.bcat.interview.easy;
  * B = [2,5,6],       n = 3
  *
  * Output: [1,2,2,3,5,6]
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class SortedMergeLCCISol {
     public static void merge(int[] A, int m, int[] B, int n) {

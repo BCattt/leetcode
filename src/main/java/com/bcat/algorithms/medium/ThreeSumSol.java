@@ -33,7 +33,7 @@ import java.util.stream.Collectors;
  *    时间复杂度: O(nlogn), 空间复杂度: O(n)
  *    指针碰撞的时间就是利用有序数组，减少了查找次数
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class ThreeSumSol {
     /**

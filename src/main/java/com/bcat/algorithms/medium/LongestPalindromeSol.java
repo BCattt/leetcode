@@ -23,7 +23,7 @@ package com.bcat.algorithms.medium;
  * 直至所有字符串遍历完成。
  *
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class LongestPalindromeSol {
     public static String longestPalindrome(String s) {

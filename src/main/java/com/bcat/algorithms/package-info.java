@@ -9,6 +9,6 @@
  *   {@code class algorithms.easy.LongestCommonPrefix} is the solution of
  *   algorithms problem <em>14.Longest Common Prefix</em>
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 package com.bcat.algorithms;

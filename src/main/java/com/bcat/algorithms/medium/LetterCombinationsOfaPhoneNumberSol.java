@@ -46,7 +46,7 @@ import java.util.stream.Collectors;
  *    对于第n(从0开始)个数字，第k(从0开始)个字母，其出现的次数为R / cn，相应地，其出现的位置为  R / cn + k
  *    可以把所有组合看成一个字母的二维数组，列数固定为数字的个数，每一行对应一个组合
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class LetterCombinationsOfaPhoneNumberSol {
     static final String[] DIGITS_MAP = new String[]{"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};

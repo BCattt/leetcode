@@ -45,7 +45,7 @@ package com.bcat.algorithms.easy;
  * ... 直到坏掉的橘子数不再变化时，统计橘子数是否与坏掉的橘子数相等，如果相等，则
  * 扫描次数即为分钟数；如果不相等，则无法使所有橘子坏掉。
  *
- * @author <a href="zjebusiness@gmail.com">赵峻</a>
+ * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class RottingOrangesSol {
     public static int orangeRotting(int[][] grid) {
