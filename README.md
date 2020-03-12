@@ -29,8 +29,10 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |23 | Merge k Sorted Lists | Hard |   ```com.bcat.algorithms.hard.MergekSortedListsSol``` |  |  
 |31 | Next Permutation | Medium | ```com.bcat.algorithms.medium.NextPermutationSol``` |  |
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
+|1013 | Partition Array Into Three Parts With Equal Sum | Easy | ```com.bcat.algorithms.easy.PartitionArrayIntoThreePartsWithEqualSumSol``` |  |
+|1071 | Greatest Common Divisor of Strings | Easy | ```com.bcat.algorithms.easy.GreatestCommonDivisorOfStringsSol``` |  |  
 |1103 | Distribute Candies to People | Easy | ```com.bcat.algorithms.easy.DistributeCandies2PeopleSol``` |  |
-|1013 | Partition Array Into Three Parts With Equal Sum | Easy | ```com.bcat.algorithms.easy.PartitionArrayIntoThreePartsWithEqualSumSol``` |  |  
+  
 
 ### Interview(面试题)  
 
