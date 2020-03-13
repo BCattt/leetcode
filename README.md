@@ -28,6 +28,8 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |21 | Merge Two Sorted List | Easy | ```com.bcat.algorithms.easy.MergeTwoSortedListsSol``` |  |
 |23 | Merge k Sorted Lists | Hard |   ```com.bcat.algorithms.hard.MergekSortedListsSol``` |  |  
 |31 | Next Permutation | Medium | ```com.bcat.algorithms.medium.NextPermutationSol``` |  |
+|33 | Search in Rotated Sorted Array | Medium | ```com.bcat.algorithms.medium.SearchInRotatedSortedArraySol``` |  |
+|169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
 |1013 | Partition Array Into Three Parts With Equal Sum | Easy | ```com.bcat.algorithms.easy.PartitionArrayIntoThreePartsWithEqualSumSol``` |  |
 |1071 | Greatest Common Divisor of Strings | Easy | ```com.bcat.algorithms.easy.GreatestCommonDivisorOfStringsSol``` |  |  
