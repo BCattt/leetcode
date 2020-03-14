@@ -46,4 +46,10 @@ public class Utils {
         }
         System.out.println(strList.stream().collect(Collectors.joining(",")));
     }
+
+    public static void print2DList(List<List<Integer>> list) {
+        System.out.println(list.stream().map(
+            l -> "[" + l.stream().map(String::valueOf).collect(Collectors.joining(",")) + "]")
+        .collect(Collectors.joining(",")));
+    }
 }
