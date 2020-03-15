@@ -52,4 +52,8 @@ public class Utils {
             l -> "[" + l.stream().map(String::valueOf).collect(Collectors.joining(",")) + "]")
         .collect(Collectors.joining(",")));
     }
+
+    public static String list2Str(List<Integer> list) {
+        return "[" + list.stream().map(String::valueOf).collect(Collectors.joining(",")) + "]";
+    }
 }
