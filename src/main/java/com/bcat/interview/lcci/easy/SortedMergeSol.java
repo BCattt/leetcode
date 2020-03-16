@@ -1,4 +1,4 @@
-package com.bcat.interview.easy;
+package com.bcat.interview.lcci.easy;
 
 /**
  * Solution for LeetCode 面试题10.01. Sorted Merge LCCI
@@ -15,7 +15,7 @@ package com.bcat.interview.easy;
  * Output: [1,2,2,3,5,6]
  * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
-public class SortedMergeLCCISol {
+public class SortedMergeSol {
     public static void merge(int[] A, int m, int[] B, int n) {
         if (n == 0) {
             return;

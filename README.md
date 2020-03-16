@@ -45,7 +45,7 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 
 |   #   |      题目     |  难度 |     源代码       |     说明     |  
 |-------|---------------|------|-----------------|--------------|
-|10.01 | Sorted Merge LCCI | Easy | ```com.bcat.interview.easy.SortedMergeLCCISol``` |  |
+|10.01 | Sorted Merge | Easy | ```com.bcat.interview.lcci.easy.SortedMergeSol``` |  |
 |57-II | 和为s的连续正数序列 | Easy | ```com.bcat.interview.easy.ContinuousSequenceSumSol``` |  |
 
 ### Multi-thread(多线程题)  
