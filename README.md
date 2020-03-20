@@ -50,6 +50,7 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |-------|---------------|------|-----------------|--------------|
 |10.01 | Sorted Merge | Easy | ```com.bcat.interview.lcci.easy.SortedMergeSol``` |  |
 |57-II | 和为s的连续正数序列 | Easy | ```com.bcat.interview.easy.ContinuousSequenceSumSol``` |  |
+|40    | Least K Numbers | Easy | ```com.bcat.interview.easy.LeastKNumsSol``` |  |  
 
 ### Multi-thread(多线程题)  
 
