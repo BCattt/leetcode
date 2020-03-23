@@ -35,6 +35,7 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |136 | Single Number | Easy | ```com.bcat.algorithms.easy.SingleNumberSol``` |  |  
 |169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |  
 |300 | Longest Increasing Subsequence | Medium | ```com.bcat.algorithms.medium.LongestIncreasingSubsequenceSol``` |  |  
+|365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
 |836 | Rectangle Overlap | Easy | ```com.bcat.algorithms.easy.RectangleOverlapSol``` |  |  
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
