@@ -10,8 +10,6 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |-------|---------------|------|-----------------|--------------|
 |1  | Two Sum | Easy | ```com.bcat.algorithms.easy.TwoSumSol``` |  |
 |2  | Add Two Numbers | Medium | ```com.bcat.algorithms.medium.AddTwoNumbersSol```|  |
-|3  | Longest Substring Without Repeating Characters | Medium | N/A |  |
-|4  | Median of Two Sorted Arrays | Hard | N/A |  |
 |5  | Longest Palindromic Substring | Medium | ```com.bcat.algorithms.medium.LongestPalindromSol```|  |  
 |6  | ZigZag Conversion | Medium | ```com.bcat.algorithms.medium.ZigZagConversionSol```|  |
 |7  | Reverse Integer   | Easy |```com.bcat.algorithms.easy.ReverseIntegerSol```|  |  
@@ -37,13 +35,13 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |300 | Longest Increasing Subsequence | Medium | ```com.bcat.algorithms.medium.LongestIncreasingSubsequenceSol``` |  |  
 |365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
+|820 | Short Encoding of Words | Medium | ```com.bcat.algorithms.medium.ShortEncodingOfWordsSol``` |  |  
 |836 | Rectangle Overlap | Easy | ```com.bcat.algorithms.easy.RectangleOverlapSol``` |  |  
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
 |1013 | Partition Array Into Three Parts With Equal Sum | Easy | ```com.bcat.algorithms.easy.PartitionArrayIntoThreePartsWithEqualSumSol``` |  |
 |1160 | Find Words That Can Be Formed by Characters | Easy | ```com.bcat.algorithms.easy.FindWordsThatCanBeFormedByCharactersSol``` |  |  
 |1071 | Greatest Common Divisor of Strings | Easy | ```com.bcat.algorithms.easy.GreatestCommonDivisorOfStringsSol``` |  |  
 |1103 | Distribute Candies to People | Easy | ```com.bcat.algorithms.easy.DistributeCandies2PeopleSol``` |  |
-  
 
 ### Interview(面试题)  
 
