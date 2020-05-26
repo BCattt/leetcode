@@ -1,9 +1,5 @@
 package com.bcat.algorithms.easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Solution for LeetCode algorithms 198 - House Robber.
  *
@@ -37,48 +33,63 @@ import java.util.List;
  * </p>
  *
  * <p><b>Solution: </b>
- * <p>1. 按照房屋金额进行排序并记录房间号, 然后从大到小偷窃, 相邻已偷过的跳过.</p>
+ * <p>1. 动态规划
+ * <pre>
+ *     假设f(k)表示从前k个房屋中能偷窥到的最大金额, Ai = 第i个房屋的金额.
+ *     状态转移方程:
+ *     1. n = 1, f(1) = A1
+ *     2. n = 2, f(2) = max(A1, A2)
+ *     3. n = 3, 有两个选项:
+ *        3.1 偷窥第三个房子, 将金额与第一个房子相加: f(1) + f(3)
+ *        3.2 不偷窥第三个房子, 保持现有最大金额: f(2)
+ *        即: f(k) = max(f(k-2) + Ak, f(k-1))
+ *     设f(-1) = f(0) = 0, 来简化代码.
+ *     按照动态规划, 可以用一个数组来存储并计算结果. 由于要计算f(k-2)的值, 所以状态数组
+ *     比原数组长度+2, 而dp[0]和dp[1]分别存放0, 表示初始状态, 真正的偷窥从dp[2]开始.
+ *     <b>优化: </b>
+ *     而由于f(k)只与f(k-2)和f(k-1)这两个值相关, 因此, 可以只用两个变量保存即可.
+ * </pre>
+ * </p>
  * </p>
  */
 public class HouseRobberSol {
-    public static class Money {
-        public final int money;
-        public final int index;
-
-        public Money(int money, int index) {
-            this.money = money;
-            this.index = index;
-        }
-    }
     public static int rob(int[] nums) {
-        // 记录房屋是否被访问过
-        boolean[] visited = new boolean[nums.length + 2];
-        // 对房屋中的金额进行排序, 并记录房间编号
-        List<Money> monies = new ArrayList<>(nums.length);
-        for (int i = 0; i < nums.length; ++i) {
-            // index增加1, 下标从1开始, 避免过界检测
-            monies.add(new Money(nums[i], i + 1));
-        }
-        // 从大到小排序
-        monies.sort((m1, m2) -> (m2.money - m1.money));
-        // 开始偷窃
-        int result = 0;
-        for (int i = 0; i < monies.size(); ++i) {
-            Money money = monies.get(i);
-            // 左边房屋及右边房屋有没有被偷窃
-            if (visited[money.index - 1] || visited[money.index + 1]) {
-                continue;
-            } else {
-                result += money.money;
-                visited[money.index] = true;
+        int[] dp = new int[nums.length + 2];
+        int max = 0;
+        // 下标从2开始
+        for (int i = 0, j = i + 2; i < nums.length; ++i, ++j) {
+            dp[j] = Math.max(dp[j - 2] + nums[i], dp[j - 1]);
+            if (dp[j] > max) {
+                max = dp[j];
             }
         }
-        return result;
+        return max;
+    }
+
+    public static int rob2(int[] nums) {
+        // f(k - 2)
+        int preMax = 0;
+        // f(k - 1)
+        int max = 0;
+        for (int m : nums) {
+            // 先保存当前最大值
+            int tmp = max;
+            // 计算f(k)
+            max = Math.max(preMax + m, max);
+            // 准备判断下一个房屋
+            preMax = tmp;
+        }
+        return max;
     }
 
     public static void main(String[] args) {
+        System.out.println(rob(new int[]{2, 3, 2}));
         System.out.println(rob(new int[]{1, 2, 3, 1}));
         System.out.println(rob(new int[]{2, 7, 9, 3, 1}));
+
+        System.out.println(rob2(new int[]{2, 3, 2}));
+        System.out.println(rob2(new int[]{1, 2, 3, 1}));
+        System.out.println(rob2(new int[]{2, 7, 9, 3, 1}));
     }
 
 }

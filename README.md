@@ -29,12 +29,17 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |32 | Longest Valid Parentheses | Hard | ```com.bcat.algorithms.hard.LongestValidParenthesesSol``` |  |  
 |33 | Search in Rotated Sorted Array | Medium | ```com.bcat.algorithms.medium.SearchInRotatedSortedArraySol``` |  |
 |39 | Combination Sum | Medium | ```com.bcat.algorithms.medium.CombinationSumSol``` |  |  
+|53 | Maximum Subarray | Easy | ```com.bcat.algorithms.easy.MaximumSubarraySol``` |  |  
+|70 | Climbing Stairs | Easy | ```com.bcat.algorithms.easy.ClimbingStairsSol``` |  |  
 |94 | Binary Tree Inorder Traversal | Medium | ```com.bcat.algorithms.medium.BinaryTreeInorderTraversalSol``` |  |
 |136 | Single Number | Easy | ```com.bcat.algorithms.easy.SingleNumberSol``` |  |  
-|169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |  
+|169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |
+|198 | House Robber | Easy | ```com.bcat.algorithms.easy.HouseRobberSol``` |  |   
+|213 | House Robber II | Medium | ```com.bcat.algorithms.medium.CycleHouseRobberSol``` |  |   
 |300 | Longest Increasing Subsequence | Medium | ```com.bcat.algorithms.medium.LongestIncreasingSubsequenceSol``` |  |  
 |365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
+|697 | Degree of an Array | Easy | ```com.bcat.algorithms.easy.DegreeOfAnArraySol``` |  |  
 |820 | Short Encoding of Words | Medium | ```com.bcat.algorithms.medium.ShortEncodingOfWordsSol``` |  |  
 |836 | Rectangle Overlap | Easy | ```com.bcat.algorithms.easy.RectangleOverlapSol``` |  |  
 |994 | Rotting Oranges | Easy | ```com.bcat.algorithms.easy.RottingOrangesSol``` |  |
