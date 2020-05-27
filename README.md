@@ -32,7 +32,9 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |53 | Maximum Subarray | Easy | ```com.bcat.algorithms.easy.MaximumSubarraySol``` |  |  
 |70 | Climbing Stairs | Easy | ```com.bcat.algorithms.easy.ClimbingStairsSol``` |  |  
 |94 | Binary Tree Inorder Traversal | Medium | ```com.bcat.algorithms.medium.BinaryTreeInorderTraversalSol``` |  |
+|104 | Maximum Depth of Binary Tree | Easy | ```com.bcat.algorithms.easy.MaximumDepthOfBinaryTreeSol``` |  |  
 |136 | Single Number | Easy | ```com.bcat.algorithms.easy.SingleNumberSol``` |  |  
+|141 | Linked List Cycle | Easy | ```com.bcat.algorithms.easy.LinkedListCycleSol``` |  |  
 |169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |
 |198 | House Robber | Easy | ```com.bcat.algorithms.easy.HouseRobberSol``` |  |   
 |213 | House Robber II | Medium | ```com.bcat.algorithms.medium.CycleHouseRobberSol``` |  |   
