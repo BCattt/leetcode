@@ -56,4 +56,15 @@ public class Utils {
     public static String list2Str(List<Integer> list) {
         return "[" + list.stream().map(String::valueOf).collect(Collectors.joining(",")) + "]";
     }
+
+    public static ListNode makeLinkedList(int[] nums) {
+        ListNode head = new ListNode(0);
+        ListNode cur = head;
+        for (int num : nums) {
+            ListNode node = new ListNode(num);
+            cur.next = node;
+            cur = cur.next;
+        }
+        return head.next;
+    }
 }
