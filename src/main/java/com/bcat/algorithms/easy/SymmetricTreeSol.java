@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import com.bcat.domain.TreeNode;
+
 /**
  * Solution for LeetCode algorithms 101-Symmetric Tree.
  *
@@ -35,13 +37,6 @@ import java.util.Stack;
  * </p>
  */
 public class SymmetricTreeSol {
-    public static class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { this.val = x; }
-    }
-
     public static boolean isSymmetric(TreeNode root) {
         List<Integer> resultL = new ArrayList<>();
         List<Integer> resultR = new ArrayList<>();

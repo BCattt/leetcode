@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.bcat.domain.ListNode;
+
 /**
  * Solution for LeetCode problem 19. Remove Nth Node From End of List
  *
@@ -33,14 +35,6 @@ import java.util.stream.Collectors;
  *
  */
 public class RmNthNodeFromEndOfListSol {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode preStart = null, start = head, end = head;
         // end指针向后移动n个位置(由于n是有效的, 此时end必然有效)

@@ -1,5 +1,7 @@
 package com.bcat.algorithms.easy;
 
+import com.bcat.domain.TreeNode;
+
 /**
  * Solution for LeetCode Algorithm 104-Maximum Depth of Binary Tree.
  * <p>Given a binary tree, find its maximum depth.
@@ -21,12 +23,6 @@ package com.bcat.algorithms.easy;
  * </p>
  */
 public class MaximumDepthOfBinaryTreeSol {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
     public static int maxDepth(TreeNode root) {
         int curDepth = 0;
         return dfs(root, curDepth);

@@ -53,8 +53,8 @@ public class Utils {
         .collect(Collectors.joining(",")));
     }
 
-    public static String list2Str(List<Integer> list) {
-        return "[" + list.stream().map(String::valueOf).collect(Collectors.joining(",")) + "]";
+    public static <O> String list2Str(List<O> list) {
+        return "[" + list.stream().map(o -> o.toString()).collect(Collectors.joining(",")) + "]";
     }
 
     public static ListNode makeLinkedList(int[] nums) {

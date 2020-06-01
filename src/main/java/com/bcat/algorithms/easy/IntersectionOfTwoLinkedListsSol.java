@@ -56,30 +56,35 @@ import com.bcat.utils.Utils;
  */
 public class IntersectionOfTwoLinkedListsSol {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode pA = headA, pB = headB;
-        boolean switched = false;
-        // 移动pA和pB到链表尾
-        while (true) {
-            if (pA.next != null) {
-                pA = pA.next;
-            } else {
-                pA = headB;
-                switched = true;
-            }
-            if (pB.next != null) {
-                pB = pB.next;
-            } else {
-                pB = headA;
-                switched = true;
-            }
-            if (switched) {
-                if (pA == pB) {
-                    return pA;
-                } else if (pA.next == null || pB.next == null) {
-                    return null;
-                }
-            }
+        if (null == headA || null == headB) {
+            return null;
         }
+        ListNode pA = headA, pB = headB;
+        // 移动pA和pB到链表尾
+        while (null != pA && null != pB) {
+            pA = pA.next;
+            pB = pB.next;
+        }
+        if (null == pA) {
+            pA = headB;
+        }
+        if (null == pB) {
+            pB = headA;
+        }
+        // 继续移动, 直到两个指针相遇或两个指针到达null
+        while (pA != null || pB != null) {
+            if (null == pA) {
+                pA = headB;
+            } else if (null == pB) {
+                pB = headA;
+            }
+            if (pA == pB) {
+                return pA;
+            }
+            pA = pA.next;
+            pB = pB.next;
+        }
+        return null;
     }
 
     public static void main(String[] args) {
@@ -88,6 +93,43 @@ public class IntersectionOfTwoLinkedListsSol {
         headB.next = new ListNode(0);
         headB.next.next = new ListNode(1);
         headB.next.next.next = headA.next.next;
+        System.out.println(getIntersectionNode(headA, headB).val);
+
+        headA = new ListNode(8);
+        headB = headA;
+        System.out.println(getIntersectionNode(headA, headB).val);
+
+        headA = new ListNode(0);
+        headA.next = new ListNode(9);
+        headA.next.next = new ListNode(1);
+        headA.next.next.next = new ListNode(2);
+        headA.next.next.next.next = new ListNode(4);
+        headB = new ListNode(3);
+        headB.next = headA.next.next.next;
+        System.out.println(getIntersectionNode(headA, headB).val);
+
+        headA = new ListNode(2);
+        headA.next = new ListNode(6);
+        headA.next.next = new ListNode(4);
+        headB = new ListNode(1);
+        headB.next = new ListNode(5);
+        System.out.println(getIntersectionNode(headA, headB));
+
+        headA = new ListNode(0);
+        headA.next = new ListNode(9);
+        headA.next.next = new ListNode(1);
+        headA.next.next.next = new ListNode(2);
+        headA.next.next.next.next = new ListNode(4);
+        headB = headA.next.next;
+        System.out.println(getIntersectionNode(headA, headB).val);
+
+        headA = new ListNode(1);
+        headB = null;
+        System.out.println(getIntersectionNode(headA, headB));
+
+        headA = new ListNode(3);
+        headB = new ListNode(2);
+        headB.next = headA;
         System.out.println(getIntersectionNode(headA, headB).val);
     }
 }

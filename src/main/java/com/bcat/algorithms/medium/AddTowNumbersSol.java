@@ -1,5 +1,7 @@
 package com.bcat.algorithms.medium;
 
+import com.bcat.domain.ListNode;
+
 /**
  * Problem #2 Add Two Numbers solution
  *
@@ -19,12 +21,6 @@ package com.bcat.algorithms.medium;
  * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class AddTowNumbersSol {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x;}
-    }
-
     public static ListNode addTowNumbers(ListNode l1, ListNode l2) {
         ListNode cur1 = l1;
         ListNode cur2 = l2;

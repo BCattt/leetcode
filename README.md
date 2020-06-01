@@ -36,9 +36,12 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |136 | Single Number | Easy | ```com.bcat.algorithms.easy.SingleNumberSol``` |  |  
 |141 | Linked List Cycle | Easy | ```com.bcat.algorithms.easy.LinkedListCycleSol``` |  |  
 |155 | Min Stack | Easy | ```com.bcat.algorithms.easy.MinStackSol``` |  |  
+|160 | Intersection of Two Linked Lists | Easy | ```com.bcat.algorithms.easy.IntersectionOfTwoLinkedListsSol``` |  |  
 |169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |
 |198 | House Robber | Easy | ```com.bcat.algorithms.easy.HouseRobberSol``` |  |   
+|206 | Reverse Linked List | Easy ```com.bcat.algorithms.easy.ReverseLinkedListSol``` |  |  
 |213 | House Robber II | Medium | ```com.bcat.algorithms.medium.CycleHouseRobberSol``` |  |   
+|226 | Invert Binary Tree | Easy | ```com.bcat.algorithms.easy.InvertBinaryTreeSol``` |  |  
 |300 | Longest Increasing Subsequence | Medium | ```com.bcat.algorithms.medium.LongestIncreasingSubsequenceSol``` |  |  
 |365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
@@ -49,7 +52,8 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |1013 | Partition Array Into Three Parts With Equal Sum | Easy | ```com.bcat.algorithms.easy.PartitionArrayIntoThreePartsWithEqualSumSol``` |  |
 |1160 | Find Words That Can Be Formed by Characters | Easy | ```com.bcat.algorithms.easy.FindWordsThatCanBeFormedByCharactersSol``` |  |  
 |1071 | Greatest Common Divisor of Strings | Easy | ```com.bcat.algorithms.easy.GreatestCommonDivisorOfStringsSol``` |  |  
-|1103 | Distribute Candies to People | Easy | ```com.bcat.algorithms.easy.DistributeCandies2PeopleSol``` |  |
+|1103 | Distribute Candies to People | Easy | ```com.bcat.algorithms.easy.DistributeCandies2PeopleSol``` |  |  
+|1431 | Kids With the Greatest Number of Candies | Easy | ```com.bcat.algorithms.easy.KidsWithTheGreatestNumOfCandiesSol``` |  |  
 
 ### Interview(面试题)  
 

@@ -2,6 +2,8 @@ package com.bcat.algorithms.easy;
 
 import java.util.HashSet;
 
+import com.bcat.domain.ListNode;
+
 /**
  * Solution for Leetcode algorithm 141 - Linked List Cycle.
  *
@@ -49,15 +51,6 @@ import java.util.HashSet;
  * </p>
  */
 public class LinkedListCycleSol {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     /**
      * 使用一个HashSet记录已访问过的节点.
      */

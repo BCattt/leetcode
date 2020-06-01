@@ -1,5 +1,7 @@
 package com.bcat.algorithms.easy;
 
+import com.bcat.domain.ListNode;
+
 /**
  * Solution for LeetCode problem 21. Merge Two sorted Lists
  * <p>
@@ -13,11 +15,6 @@ package com.bcat.algorithms.easy;
  * 有序链表归并
  */
 public class MergeTwoSortedListsSol {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x;}
-    }
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 制造一个头节点
         ListNode head = new ListNode(0);
