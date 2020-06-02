@@ -39,11 +39,14 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |160 | Intersection of Two Linked Lists | Easy | ```com.bcat.algorithms.easy.IntersectionOfTwoLinkedListsSol``` |  |  
 |169 | Majority Element | Easy | ```com.bcat.algorithms.easy.MajorityElementSol``` |  |
 |198 | House Robber | Easy | ```com.bcat.algorithms.easy.HouseRobberSol``` |  |   
-|206 | Reverse Linked List | Easy ```com.bcat.algorithms.easy.ReverseLinkedListSol``` |  |  
+|206 | Reverse Linked List | Easy | ```com.bcat.algorithms.easy.ReverseLinkedListSol``` |  |  
 |213 | House Robber II | Medium | ```com.bcat.algorithms.medium.CycleHouseRobberSol``` |  |   
 |226 | Invert Binary Tree | Easy | ```com.bcat.algorithms.easy.InvertBinaryTreeSol``` |  |  
 |300 | Longest Increasing Subsequence | Medium | ```com.bcat.algorithms.medium.LongestIncreasingSubsequenceSol``` |  |  
 |365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
+|437 | Path Sum III | Easy | ```com.bcat.algorithms.easy.PathSum3Sol``` |  |
+|448 | Find All Numbers Disappeared in an Array | Easy | ```com.bcat.algorithms.easy.FindAllNumbersDisappearedInAnArraySol``` |  |
+|461 | Hamming Distance | Easy | ```com.bcat.algorithms.easy.HammingDistanceSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
 |697 | Degree of an Array | Easy | ```com.bcat.algorithms.easy.DegreeOfAnArraySol``` |  |  
 |820 | Short Encoding of Words | Medium | ```com.bcat.algorithms.medium.ShortEncodingOfWordsSol``` |  |  

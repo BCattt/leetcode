@@ -50,17 +50,11 @@ public class PalindromeLinkedListSol {
         }
         return true;
     }
-
-    //
-    public static boolean isPalindrome2(ListNode head) {
-
-    }
-
     static void palindrome(ListNode node, ListNode head) {
         if (null == node || null == node.next) {
             return;
         }
-        
+
     }
 
     public static void main(String[] args) {
