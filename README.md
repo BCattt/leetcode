@@ -28,6 +28,7 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |31 | Next Permutation | Medium | ```com.bcat.algorithms.medium.NextPermutationSol``` |  |
 |32 | Longest Valid Parentheses | Hard | ```com.bcat.algorithms.hard.LongestValidParenthesesSol``` |  |  
 |33 | Search in Rotated Sorted Array | Medium | ```com.bcat.algorithms.medium.SearchInRotatedSortedArraySol``` |  |
+|34 | Find First and Last Position of Element in Sorted Array | Medium | ```com.bcat.algorithms.medium.FindFirstAndLastPositionOfElementInSortedArraySol``` |  |  
 |39 | Combination Sum | Medium | ```com.bcat.algorithms.medium.CombinationSumSol``` |  |  
 |53 | Maximum Subarray | Easy | ```com.bcat.algorithms.easy.MaximumSubarraySol``` |  |  
 |70 | Climbing Stairs | Easy | ```com.bcat.algorithms.easy.ClimbingStairsSol``` |  |  
@@ -46,7 +47,9 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |365 | Water and Jug Problem | Medium | ```com.bcat.algorithms.medium.WaterAndJugProblemSol``` |  |  
 |437 | Path Sum III | Easy | ```com.bcat.algorithms.easy.PathSum3Sol``` |  |
 |448 | Find All Numbers Disappeared in an Array | Easy | ```com.bcat.algorithms.easy.FindAllNumbersDisappearedInAnArraySol``` |  |
-|461 | Hamming Distance | Easy | ```com.bcat.algorithms.easy.HammingDistanceSol``` |  |  
+|461 | Hamming Distance | Easy | ```com.bcat.algorithms.easy.HammingDistanceSol``` |  |
+|581 | Shortest Unsorted Continuous Subarray | Easy | ```com.bcat.algorithms.easy.ShortestUnsortedContinuousSubarraySol``` |  |  
+|617 | Merge Two Binary Trees | Easy | ```com.bcat.algorithms.easy.MergeTwoBinaryTreesSol``` |  |  
 |695 | Max Area of Island | Medium | ```com.bcat.algorithms.medium.MaxAreaOfIslandSol``` |  |  
 |697 | Degree of an Array | Easy | ```com.bcat.algorithms.easy.DegreeOfAnArraySol``` |  |  
 |820 | Short Encoding of Words | Medium | ```com.bcat.algorithms.medium.ShortEncodingOfWordsSol``` |  |  

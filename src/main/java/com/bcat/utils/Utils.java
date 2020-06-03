@@ -36,7 +36,7 @@ public class Utils {
     }
 
     public static String intArray2String(int[] intArray, String sep) {
-        return Arrays.stream(intArray).mapToObj(String::valueOf).collect(Collectors.joining(sep));
+        return "[" + Arrays.stream(intArray).mapToObj(String::valueOf).collect(Collectors.joining(sep)) + "]";
     }
 
     public static void print2DArray(int[][] array) {
