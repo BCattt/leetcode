@@ -1,8 +1,5 @@
 package com.bcat.algorithms.easy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.bcat.domain.ListNode;
 import com.bcat.utils.Utils;
 
@@ -55,14 +52,14 @@ public class ReverseLinkedListSol {
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
-        Utils.printList(reverseList(head));
-        Utils.printList(reverseListR(head));
+        Utils.printLinkedList(reverseList(head));
+        Utils.printLinkedList(reverseListR(head));
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        Utils.printList(reverseList(head));
-        Utils.printList(reverseList(null));
+        Utils.printLinkedList(reverseList(head));
+        Utils.printLinkedList(reverseList(null));
     }
 }

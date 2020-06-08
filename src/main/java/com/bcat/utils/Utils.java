@@ -13,18 +13,25 @@ import java.util.stream.Collectors;
  * @author <a href="zjebusiness@gmail.com">BCat</a>
  */
 public class Utils {
+    public static void printLinkedList(ListNode list) {
+        System.out.println(linkedList2String(list));
+    }
     /**
-     * Print a list node an concatenate each node with {@literal ->}.
-     *
-     * @param list head node of a linked list.
+     * 将链表转换成字符串, 格式为: 数字 -> ...
+     * @param list 待转换的链表
+     * @return 转换后的字符串
      */
-    public static void printList(ListNode list) {
-        List<Integer> iList = new ArrayList<>();
+    public static String linkedList2String(ListNode list) {
+        StringBuilder sb = new StringBuilder();
         while (null != list) {
-            iList.add(list.val);
+            sb.append(list.val).append("->");
             list = list.next;
         }
-        System.out.println(iList.stream().map(String::valueOf).collect(Collectors.joining("->")));
+        // 删除最后一个分隔符
+        if (sb.length() > 0) {
+            sb.delete(sb.length() - 2, sb.length());
+        }
+        return sb.toString();
     }
 
     public static void printIntArray(int[] intArray) {
