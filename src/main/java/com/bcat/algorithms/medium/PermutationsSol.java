@@ -25,6 +25,6 @@ import java.util.List;
  */
 public class PermutationsSol {
     public static List<List<Integer>> permute(int[] nums) {
-
+        return null;
     }
 }

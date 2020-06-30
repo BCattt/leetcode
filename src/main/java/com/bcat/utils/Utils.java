@@ -51,7 +51,7 @@ public class Utils {
         for (int i = 0; i < array.length; ++i) {
             strList.add("[" + Arrays.stream(array[i]).mapToObj(String::valueOf).collect(Collectors.joining(",")) + "]");
         }
-        System.out.println(strList.stream().collect(Collectors.joining(",")));
+        System.out.println(String.join(",", strList));
     }
 
     public static void print2DList(List<List<Integer>> list) {
@@ -61,7 +61,7 @@ public class Utils {
     }
 
     public static <O> String list2Str(List<O> list) {
-        return "[" + list.stream().map(o -> o.toString()).collect(Collectors.joining(",")) + "]";
+        return "[" + list.stream().map(Object::toString).collect(Collectors.joining(",")) + "]";
     }
 
     public static ListNode makeLinkedList(int[] nums) {
