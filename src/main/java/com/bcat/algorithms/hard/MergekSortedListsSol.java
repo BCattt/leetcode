@@ -80,6 +80,6 @@ public class MergekSortedListsSol {
         l3.next = new ListNode(6);
 
         ListNode[] lists = {l1, l2, l3};
-        Utils.printList(mergeKLists(lists));
+        System.out.println(Utils.linkedList2String(mergeKLists(lists)));
     }
 }

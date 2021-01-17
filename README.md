@@ -21,7 +21,7 @@ leetcode题库的答案及解决思路，随着解题的深入，题解会不断
 |14 | Longest Common Prefix | Easy | ```com.bcat.algorithms.easy.LongestCommonPrefixSol``` |  |  
 |15 | Three Sum | Medium | ```com.bcat.algorithms.medium.ThreeSumSol``` |  |
 |17 | Letter Combinations of a Phone Number | Medium | ```com.bcat.algorithms.medium.LetterCombinationsOfaPhoneNumberSol``` |  |
-|19 | Remove Nth Node from End of List | Medium | ```com.bcat.algorithms.medium.RmNthNodeFromEndOfListSol``` |  |  
+|19 | Remove Nth Node from End of List | Medium | ```com.bcat.algorithms.medium.RemoveNthNodeFromEndOfListSol``` |  |  
 |20 | Valid Parentheses | Easy | ```com.bcat.algorithms.easy.ValidParenthesesSol``` |  |
 |21 | Merge Two Sorted List | Easy | ```com.bcat.algorithms.easy.MergeTwoSortedListsSol``` |  |
 |23 | Merge k Sorted Lists | Hard |   ```com.bcat.algorithms.hard.MergekSortedListsSol``` |  |  
