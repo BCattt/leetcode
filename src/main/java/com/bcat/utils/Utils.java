@@ -1,10 +1,9 @@
 package com.bcat.utils;
 
 import com.bcat.domain.ListNode;
+import com.bcat.domain.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -68,10 +67,41 @@ public class Utils {
         ListNode head = new ListNode(0);
         ListNode cur = head;
         for (int num : nums) {
-            ListNode node = new ListNode(num);
-            cur.next = node;
+            cur.next = new ListNode(num);
             cur = cur.next;
         }
         return head.next;
+    }
+
+    public static TreeNode makeBinaryTree(Integer[] nums) {
+        TreeNode root = new TreeNode(nums[0]);
+        Deque<TreeNode> layer = new LinkedList<>();
+        layer.offerLast(root);
+        int layerNodeCnt = 1;
+        int nodeIdx = 1;
+        while (!layer.isEmpty() && nodeIdx < nums.length) {
+            int currLayerNodeCnt = 0;
+            for (int i = 0; i < layerNodeCnt; ++i) {
+                TreeNode node = layer.pollFirst();
+                Integer nodeVal = nums[nodeIdx];
+                if (nodeVal != null) {
+                    node.left = new TreeNode(nodeVal);
+                    layer.offerLast(node.left);
+                    ++currLayerNodeCnt;
+                }
+                ++nodeIdx;
+                if (nodeIdx < nums.length) {
+                    nodeVal = nums[nodeIdx];
+                    if (nodeVal != null) {
+                        node.right = new TreeNode(nodeVal);
+                        layer.offerLast(node.right);
+                        ++currLayerNodeCnt;
+                    }
+                    ++nodeIdx;
+                }
+            }
+            layerNodeCnt = currLayerNodeCnt;
+        }
+        return root;
     }
 }
