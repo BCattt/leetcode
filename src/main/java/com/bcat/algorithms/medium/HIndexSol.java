@@ -28,7 +28,6 @@ public class HIndexSol {
                 }
             }
         }
-        Arrays.fill
         return 0;
     }
 
